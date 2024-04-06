@@ -1,0 +1,575 @@
+/* Partially buil with the help of Coder Coder youtube channel */
+
+
+body {
+    margin: 0;
+    font-size: clamp(1rem, 0.9353448275862069rem + 0.27586206896551724vw, 1.125rem);
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fraunces', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h3 {
+    color: #24053E;
+}
+
+h1 {
+
+    font-size: 3.125rem;
+    font-size: clamp(3.125rem, 2.6699029126213594rem + 1.9417475728155342vw, 5rem);
+}
+
+h2 {
+    font-size: clamp(2rem, 1.2241379310344829rem + 3.3103448275862064vw, 3.5rem);
+}
+
+.header__wrapper {
+    width: min((100% - 2rem), 69.375rem);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header {
+    background-color: rgb(36, 5, 62);
+    color: white;
+    padding-block: 56px;
+}
+
+.header__link {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(68, 255, 161);
+}
+
+.header__link:hover {
+    color: rgb(68, 255, 161);
+    transition: 200ms ease-in-out;
+}
+
+/* Hero Styling  */
+
+.hero {
+    background-color: rgb(36, 5, 62);
+    text-align: center;
+}
+
+
+.hero_headline {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+
+}
+
+.hero_headline span {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(68, 255, 161);
+}
+
+.button {
+    color: rgb(36, 5, 62);
+    background-color: #44FFA1;
+    padding: 13px 32px 16px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.975rem + 0.125vw, 1.125rem);
+}
+
+
+.hero__button:hover {
+    background-color: transparent;
+    color: #44FFA1;
+    border:2px solid #44FFA1;
+    cursor: pointer;
+}
+
+
+/*.hero__wrapper {}*/
+.bg-pattern1 {
+    margin-left: -7em;
+
+
+}
+
+.bg-pattern2 {
+    align-self: flex-end;
+    margin-right: -3em;
+}
+
+.hero__wrapper {
+    align-self: end;
+
+}
+
+.hero {
+    margin-bottom: -1em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+
+
+
+}
+
+
+
+/*.curved-image-phone {}*/
+
+
+.phone-section {
+    background-image: url('assets/images/Rectangle\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fcf8ff;
+
+}
+
+.image-wrapper {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+
+
+.image-wrapper img {
+    width: clamp(20rem, 14.412500000000001rem + 27.9375vw, 47.9375rem);
+    width: 100%;
+
+}
+
+
+/*.curved-image-bottom-light blue {}*/
+
+.curved-bottom img {
+    width: 100%;
+}
+
+
+
+.product-info {
+    display: grid;
+    place-items: center;
+    background: #fcf8ff;
+    padding-block-end: clamp(2.875rem, 2.6125rem + 1.3125vw, 4.1875rem);
+    padding-top: 3em;
+
+
+}
+
+.info span {
+    font-weight: 600;
+    font-family: 'Fraunces';
+    color: #24053E;
+    border: 1px solid #24053E;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+
+.information {
+    display: flex;
+    gap: 25px;
+    max-width: 1114px;
+    position: relative;
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info div h3,
+.info div p {
+    text-align: center;
+}
+
+.info div h3 {
+    margin-bottom: 40px;
+}
+
+.info div p {
+    color: #24053E;
+    font-family: 'manrope';
+    line-height: 1.5;
+}
+
+.last-section {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    padding: 4em clamp(1rem, -1.22997572815534rem + 9.514563106796118vw, 10.1875rem);
+    position: relative;
+    grid-template-rows:  173px auto auto;
+
+}
+
+.b-first-to-test {
+    color: white;
+    font-family: 'manrope';
+    padding: 3em clamp(1.9375rem, 1.4217233009708738rem + 2.2006472491909386vw, 4.0625rem) 1em;
+    background-color: #24053E;
+    margin-bottom: 0;
+    position: relative;
+    grid-column: 2/-1;
+    grid-row: 2;
+   
+}
+
+.b-first-to-test h2 {
+    margin-bottom: 0.5em;
+}
+
+.b-first-to-test p {
+    margin-bottom: 2em;
+    line-height: 2;
+}
+
+ .hero__button {
+    padding: 1.5em;
+    font-weight: 600;
+    align-self: end;
+}
+
+.b-first-to-test div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.b-first-to-test img {
+    margin-bottom: -5em;
+
+}
+
+.image-founder img {
+  
+    width: 450px;
+}
+
+footer{
+    display: grid;
+    place-items: center;
+    margin-bottom: 4rem;
+}
+
+.footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 58px;
+}
+.socials-footer{
+    display: flex;
+    gap: 25px;
+}
+.socials-footer img{
+    cursor: pointer;
+    
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .bg-pattern1,
+    .bg-pattern2 {
+        display: none;
+    }
+
+    .hero__wrapper {
+        margin-left: 0 !important;
+    }
+ 
+    .bg-pattern-3{
+        display: none;
+    }
+  .b-first-to-test div{
+    justify-content: center;
+  }
+.b-first-to-test{
+    grid-column: 1 / -1;
+}
+
+}   
+
+
+@media only screen and (max-width:769px) {
+    .last-section{
+      grid-template-columns: 180px auto auto;
+    }
+
+    .image-founder img {
+        border: 1px solid red;
+        width: 281px;
+       
+    }
+     
+    .bg-pattern1 {
+        max-width: 260px;
+        margin-left: -9em;
+
+    }
+
+    .hero__wrapper {
+        align-self: center;
+        margin-left: 3em;
+    }
+
+    .curved-bottom img {
+        width: 100%;
+        display: none;
+    }
+
+    .phone-section {
+        background-color: white;
+    }
+
+    .product-info {
+        background: white;
+        padding: 3em clamp(2rem, -0.47269417475728126rem + 10.550161812297734vw, 12.1875rem);
+
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info div p,
+    .info div h3 {
+        text-align: left;
+    }
+
+    .info div h3 {
+        margin-bottom: 20px;
+    }
+.hero__button{
+    padding: 1em;
+}
+
+}
+
+@media only screen and (max-width:400px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info div h3,
+    .info div p {
+        text-align: center;
+    }
+
+    .product-info,
+    .phone-section {
+        background-color: #fcf8ff;
+    }
+
+    .curved-bottom img {
+        width: 100%;
+        display: block;
+    }
+
+.b-first-to-test{
+    max-width: 360px;
+    grid-column: 1 / -1;
+    text-align: center;
+
+}
+.last-section{
+    grid-template-columns:40px minmax(250px,1fr) 40px !important;
+    grid-template-rows: 220px auto;
+    overflow-x: hidden;
+  }
+  .image-founder{
+  grid-column: 2/3;
+  }
+ 
+
+.last-section{
+    padding-top: 4em;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1439px) {
+    .image-wrapper {
+    width: auto;
+
+    }
+
+    .image-wrapper img {
+        width: clamp(20rem, 14.412500000000001rem + 27.9375vw, 47.9375rem);
+
+
+    }
+}
+
+
+
+/*
+
+.information {
+    display: flex;
+    gap: 25px;
+    max-width: 1114px;
+    position: relative;
+
+}
+
+
+
+.info div h3,
+.info div p {
+    text-align: center;
+}
+
+.info div h3 {
+    margin-bottom: 50px;
+}
+
+.info div p {
+    color: #24053E;
+    font-family: 'manrope';
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.info span {
+    font-weight: 600;
+    font-family: 'Fraunces';
+    color: #24053E;
+    border: 1px solid #24053E;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+
+.curved-bottom {
+    background-image: url('assets/images/Rectangle\ \(1\).svg');
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 550px;
+    display: none;
+
+}
+
+@media  only screen and (max-width:769px) {
+    .info{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
+/* .curved-bottom::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: url('assets/images/Rectangle.light.svg');
+    background-repeat: no-repeat;
+    inset: 0% 69% 0 0;
+    background-size: 100% 100%;
+}   
+.wrapper-image{
+    border: 2px solid magenta;
+}
+
+.wrapper-image img{
+   width: clamp(20rem, 13.219053398058254rem + 28.932038834951456vw, 47.9375rem);;
+   margin: 0 auto;
+}
+
+
+$ python coke.py                                                                
+Amount Due: 50                                                                  
+Insert Coin: 25                                                                 
+Amount Due: 25                                                                  
+Insert Coin: 25                                                                 
+Change Owed: 0 
+
+
+
+
+
+
+
+
+
+
+
+*/
